@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Panel de Control - Iniciar sesión</title>
+  <link rel="stylesheet" href="./css/estilos1.css">
+</head>
+<body>
+  <div class="container">
+    
+    <img src="./img/logo frost.jpeg" alt="SoporteTec Logo">
+
+    <h2>Iniciar sesión</h2>
+
+    <form id="loginForm">
+      <label for="usuario">Usuario</label>
+      <input id="usuario" type="text" placeholder="usuario" required>
+
+      <label for="clave">Contraseña</label>
+      <input id="clave" type="password" placeholder="••••••" required>
+
+      <button type="submit">Iniciar sesión</button>
+
+      <div class="links">
+        <a href="forgot-password.html">¿Olvidaste tu contraseña?</a><br>
+        <a href="register.html">Crear cuenta nueva</a>
+      </div>
+
+      <div id="loginError" class="error" aria-live="polite"></div>
+    </form>
+  </div>
+
+  <script src="./js/login.js"></script>
+</body>
+</html>

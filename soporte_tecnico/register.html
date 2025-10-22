@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Panel de Control - Crear cuenta</title>
+  <link rel="stylesheet" href="./css/">
+</head>
+<body>
+  <main class="auth-page">
+    <form class="card auth-card" id="registerForm">
+      <h1 class="brand">Crear cuenta</h1>
+      <p class="subtitle">Completa los datos para registrarte</p>
+
+      <label><span>Nombre completo</span><input id="name" type="text"></label>
+      <label><span>Correo</span><input id="email" type="email"></label>
+      <label><span>Usuario</span><input id="newUser" type="text"></label>
+      <label><span>Contraseña</span><input id="pass1" type="password"></label>
+      <label><span>Confirmar contraseña</span><input id="pass2" type="password"></label>
+
+      <button type="submit" class="btn primary">Crear cuenta</button>
+
+      <div class="links">
+        <a href="login.html">Volver al Inicio</a>
+      </div>
+
+      <div id="registerMsg" class="info" aria-live="polite"></div>
+    </form>
+  </main>
+
+  <script src="../js/login.js"></script>
+</body>
+</html>
